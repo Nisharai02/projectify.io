@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>edit-page</title>
+    <link href="styleedit.css" rel="stylesheet" />
+    <link rel="icon" href="11zon_cropped.png" type="image/icon type" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="editbox">
+          <form>
+            <h2>Add Link</h2>
+            <a href="" class="linkify"><img src="logo.png" /></a>
+            <br />
+            <label for="url">Enter title:</label>
+            <input type="text" placeholder="Enter title" class="inputfield" />
+
+            <label for="url">Enter url: </label>
+            <input
+              type="url"
+              placeholder="https://example.com"
+              pattern="https://.*"
+              class="inputfield"
+            />
+
+            <button type="submit">Add</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

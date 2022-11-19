@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.linkify {
+  width: 20px;
+  margin-right: 10px;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url("bggrad.jpg");
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.editbox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: rgba(217, 193, 251, 0.873);
+  padding: 60px 8%;
+  color: black;
+
+  border-radius: 10%;
+  max-width: 800px;
+
+  display: flex;
+}
+
+.linkify img {
+  width: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.editbox h2 {
+  font-weight: 600;
+  color: black;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.inputfield {
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid rgb(117, 42, 223);
+  outline: none;
+  display: block;
+  width: 100%;
+  min-width: 350px;
+  margin: 5px 0 10px;
+}
+
+form label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+form button {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(117, 42, 223);
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 18px 0 10px;
+  background: rgb(117, 42, 223);
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: white;
+  background: rgb(22, 128, 22);
+}
